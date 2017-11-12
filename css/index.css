@@ -1,0 +1,161 @@
+*{
+	padding: 0;
+	margin:0;
+	list-style: none;
+	text-decoration: none; 
+}
+.hd .nav li:nth-child(1) a{
+	color:red;
+}
+.bd{	
+	width: 100%;
+	height: 770px;
+	position: relative;
+	top: 0px;left: 0;
+	overflow: hidden;
+}
+.banner{
+	position: relative;
+	height:770px;
+}
+.banner li{
+	position: absolute;
+	top: 0;left: 0;
+	width: 100%;
+	height: 770px;
+}
+.banner li img{
+	width: 100%;
+	height: 100%;
+}
+.banner li:nth-child(3){
+	z-index: 2;
+}
+.banner li:nth-child(2){
+	z-index: 1;
+}
+.banner .btn{
+	position: absolute;
+	top: 50%;
+	margin-top: -85px;
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: #fff;
+	border-radius: 50%;
+	font-size: 50px;
+	color:rgba(0,0,0,0.4);
+	text-align: center;
+	line-height: 70px;
+	font-family: "宋体";
+	font-weight: bolder;
+	transition: 0.5s;
+	box-shadow: 0px 3px 9px rgba(0,0,0,0.2);
+	z-index: 3;
+}
+.left{
+	left:70px;
+}
+.right{
+	right:70px;
+}
+.left:hover{
+	left: 50px;
+}
+.right:hover{
+	right: 50px;
+}
+
+.produce{
+	position: absolute;
+	bottom: 60px;left: 50%;
+	margin-left: -380px;
+	width: 790px;
+	height: 120px;
+	z-index: 3;
+}
+.pro_left{
+	width:350px; 
+	height: 120px;
+	float: left;
+	background: #000;
+}
+.pro_right{
+	position: relative;
+	width: 420px;height: 120px;
+	float: right;
+	background: #000;
+}
+.pro_left img{
+	margin:7px 0 0 7px; 
+}
+.pro_left ul{
+	float: right;
+	margin:6px 60px 0 0;
+}
+.pro_left li{
+	line-height: 20px;
+}
+.pro_left li a{
+	color:#fff;	
+	font-size: 13px;
+}
+.pro_left li:hover a{
+	color: red;
+}
+.pro_r_box{
+	width: 357px;
+	height: 90px;
+	/*background: green;*/
+	margin:15px 0 0 30px;
+	overflow: hidden;
+}
+.pro_list{
+	position: relative;
+	left: 0px;
+	width: 1120px;/*border: 1px solid blue;*/
+	overflow: hidden;
+}
+.pro_right ul{
+	float: left;
+	width: 360px;
+	margin
+	/*border: 1px solid red;*/
+}
+.pro_right ul:nth-child(2){
+	margin: 0 10px;
+}
+.pro_right ul li{
+	float: left;
+	cursor: pointer;
+}
+.pro_right ul li:nth-child(2){
+	float: left;
+	margin:0 13px;
+}
+.pro_right .btn{
+	position: absolute;
+	top: 50%;
+	margin-top: -25px;
+	display: block;
+	width: 17px;
+	height: 50px;
+	font-size: 40px;
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+	font-family: "宋体";
+	transition: 0.4s;
+}
+.pro_right .left{
+	left: 7px;
+}
+.pro_right .right{
+	right: 7px;
+}
+.pro_right .left:hover{
+	left: 1px;
+}
+.pro_right .right:hover{
+	right: 1px;
+}

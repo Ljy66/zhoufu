@@ -1,0 +1,138 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-31 21:37:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-09 10:43:40
+*/
+.hd .nav li:nth-child(3) a{
+	color:red;
+}
+.content{
+	width: 100%;
+	height: 850px;
+	background: url('../images/new02.jpg');
+	background-size: 117%;
+	overflow: hidden;
+}
+.content .n-list{
+	width:1058px;
+	height:679px;
+	margin:95px auto;
+}
+.content .n-list img{
+    width:440px;
+    height:600px;
+}
+.content .n-list .cn-right{
+	width:573px;
+	height：571px;
+	float:right;
+	color:#fff;
+}
+.content .n-list .cn-right ul{
+	width:573px;
+	height：571px;
+}
+.content .n-list .cn-right ul li{
+	width:573px;
+	height: 24px;
+	margin-top: 15px;
+	cursor: pointer;
+}
+.content .n-list .cn-right ul li .title{
+	width:350px;
+	height: 24px;
+	float:left;
+	margin-left: 20px;
+}
+.content .n-list .cn-right ul li .title a{
+	color:#fff;
+}
+.content .n-list .cn-right ul li .date{
+	float:left;
+}
+.content .n-list .cn-right .icon{
+	width:12px;
+	height: 12px;
+	background:#fff;
+	float:left;
+	position: relative;
+	left:-10px;
+	top:2px;
+}
+.content .n-list .cn-right .red .icon{
+	background:red;
+}
+.content .n-list .cn-right .page{
+	width:376px;
+	height: 24px;
+	margin-left:3%;
+	margin-top:20px;
+}
+.content .n-list .cn-right .page ul{
+	width:500px;
+	height: 48px;
+}
+.content .n-list .cn-right .page ul li{
+	float:left;
+	height: 24px;
+	line-height:24px;
+	text-align:center;
+	width:60px;
+	margin:5px;
+}
+.content .n-list .cn-right .page a{
+	padding:2px 8px;
+	color:#fff;
+	font-size: 14px;
+	text-align:center;
+	display:inline-block;
+}
+.content .n-list .cn-right .page a:hover{
+	background:red;
+	color:#fff;
+}
+
+.content .nd-text{
+	width:1058px;
+	height: 677px;
+	margin:95px auto;
+	background:#fff;
+	position:relative;
+	top:-775px;
+	left:0px;
+	border: 1px solid #ccc;
+	display: none;
+}
+.content .nd-text img{
+	width:440px;
+    height:677px;
+}
+.content .nd-text .nd-right{
+	width:556px;
+	height: 640px;
+	line-height: 30px;
+	text-indent: 2em;
+    margin-top: 30px;
+    position:absolute;
+    right:47px;
+    top:0px;
+}
+.content .nd-text span{
+	position:absolute;
+	right:0px;
+	top:2px;
+	width:22px;
+	font-size:18px;
+	height: 22px;
+	border:1px solid #333;
+	border-radius: 50%;
+	text-align:center;
+	cursor:pointer;
+}
+.content .nd-text .nd-right p{
+	width:535px;
+}
+.content .nd-text  h4{
+	text-align: center;
+}

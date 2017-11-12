@@ -1,0 +1,22 @@
+.food_top{
+	border:none;
+	border-bottom: 4px solid #dcdcdc;
+}
+.food_bottom{
+	border: none;
+}
+.food_top .save{
+	position: absolute;
+	bottom: 0;
+	left: 300px;
+	height: 30px;
+	width: 80px;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+}
+.food_top .save{
+	left: 160px;
+	border:1px solid #000;
+}

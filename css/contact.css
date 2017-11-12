@@ -1,0 +1,108 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-31 21:38:11
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-08 21:35:26
+*/
+.hd .nav li:nth-child(5) a{
+	color:red;
+}
+.content{
+	width: 100%;
+	height: 850px;
+	background: url('../images/contact01.jpg');
+	background-size:1400px 900px;
+	overflow: hidden;
+}
+.content .c-text{
+	width:1033px;
+	height:600px;
+	margin:28px auto;
+	border:1px solid transparent;
+}
+.content .c-text p{
+	width:210px;
+	height: 30px;
+	font-weight: bold;
+	margin-left: 10px;
+	font-size: 15px;
+}
+.content .c-text p a{
+	color:#333;
+	font-size: 15px;
+}
+.content .c-text .c-left{
+	width:471px;
+	height: 470px;
+	float: left;
+}
+.content .c-text .c-left ul{
+	width:471px;
+	height: 145px;
+	overflow:hidden;
+	margin-bottom: 10px;
+	position: relative;
+}
+.content .c-text .c-left ul li{
+	width:215px;
+	height:30px;
+	float:left;
+	margin:10px;
+}
+.content .c-text .c-left ul li input{
+	width:120px;
+	height: 27px;
+	outline: none;
+	border:1px solid #333;
+	padding-left: 4px;
+}
+.content .c-text .c-left textarea{
+	padding: 5px;
+	outline: none;
+	border:1px solid #333;
+}
+.content .c-text .cta{
+	color:red;
+}
+.c-f{
+	position:absolute;
+	left:160px;
+	margin-top:10px;
+}
+.c-f input{
+	height: 27px;
+	padding: 5px;
+	outline: none;
+	border:1px solid #333;
+}
+.sub{
+	width:99px;
+	height: 27px;
+	margin-top: 10px;
+	outline:none;
+	border:none;
+}
+.content .c-text  .c-right{
+	width:481px;
+	height: 495px;
+	float:left;
+	margin-left: 47px;
+}
+.content .c-text  .c-right img{
+	width:481px;
+	height: 287px;
+}
+.content .c-text  .c-right ul{
+	width:481px;
+	height: 173px;
+	line-height: 30px;
+}
+.content .c-text  .c-right ul li{
+	width:481px;
+	height: 50px;
+	margin:10px;
+
+}
+.content .c-text  .c-right a{
+	color:#333;
+}
